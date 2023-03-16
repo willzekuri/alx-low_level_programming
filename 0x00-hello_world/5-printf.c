@@ -2,7 +2,7 @@
  * main - entry point
  *
  * demonstrates the usage of printf
- * returns 0 which means success
+ * return 0: which means success
  */
 #include <stdio.h>
 int main(void)
