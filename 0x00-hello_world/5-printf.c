@@ -1,8 +1,7 @@
 /**
  * main - entry point
  *
- * demonstrates the usage of printf
- * return 0: which means success
+ * Return: Always 0 (success)
  */
 #include <stdio.h>
 int main(void)
