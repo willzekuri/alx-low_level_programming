@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/*main - Entry point*/
+/* more headers goes there */
+#include <stdio.h>
+/* main - entry point */
 int main(void)
 {
 	int n;
