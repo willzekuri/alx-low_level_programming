@@ -26,6 +26,7 @@ int main(void)
 			if (x == 98 && y == 99)
 				continue;
 			putchar(',');
+			putchar(' ');
 		}
 	}
 
