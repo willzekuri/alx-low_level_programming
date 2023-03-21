@@ -1,12 +1,10 @@
 #include "main.h"
 /**
  * _islower - returns 1 if argument is lowercase and 0 otherwise
- *
- *c: takes in argument
- *
+ * @c: the parameter and argument
  * Return: Always 0.
+ *
  */
-
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
