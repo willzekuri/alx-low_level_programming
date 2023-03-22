@@ -12,6 +12,6 @@ int print_last_digit(int b)
 
 	lastDigit = mod;
 
-	_putchar(lastDigit);
+	_putchar(lastDigit + '0');
 	return (lastDigit);
 }
