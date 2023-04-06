@@ -3,7 +3,7 @@
 /**
 *_pow_recursion - function to print the power of a number
 *@x: first parameter - the number to be raised to the power of y
-*@y: second parameter 
+*@y: second parameter
 *Return: int
 */
 
@@ -22,5 +22,4 @@ int _pow_recursion(int x, int y)
 		res = x * _pow_recursion(x, y - 1);
 	}
 	return (res);
-	
 }
