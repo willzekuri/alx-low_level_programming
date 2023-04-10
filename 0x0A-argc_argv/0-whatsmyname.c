@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-int main(int argc, char* argv[])
+/**
+*main - Function to print the name of program
+*@argc: stores the number of argument used to call the program
+*@argv: array of characters that stores the argument used to call the program
+*Return: always 0
+*/
+int main(int argc, char *argv[])
 {
 	int i = argc;
 
