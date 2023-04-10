@@ -6,9 +6,10 @@
 *@argv: array of characters that stores the argument used to call the program
 *Return: always 0
 */
+
 int main(int argc, char *argv[])
 {
-	int i = argc;
+	(void)argc;
 
 	printf("%s\n", argv[0]);
 
