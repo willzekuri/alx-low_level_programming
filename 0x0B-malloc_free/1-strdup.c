@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*strlen - Function to check length of string
+*str_len - Function to check length of string
 *@s: parameter and string to be checked
 *Return: string length
 */
@@ -31,14 +31,20 @@ char *_strdup(char *str)
 	int size;
 	int i = 0;
 
-	size = str_len(str);
-
-	strChar = malloc((size + 1) * sizeof(char));
-
 	if (str == NULL)
 	{
 		return (NULL);
 	}
+
+	size = str_len(str);
+
+	strChar = malloc((size + 1) * sizeof(char));
+
+	if (strChar == NULL)
+	{
+		return (NULL);
+	}
+
 	while (str[i] != '\0')
 	{
 		strChar[i] = str[i];
