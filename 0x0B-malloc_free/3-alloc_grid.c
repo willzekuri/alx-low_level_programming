@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include "main.h"
-/*
-*alloc_grid - Function that returns a pointer to a 2 dimensional array of integers
+
+/**
+*alloc_grid - Function that returns a pointer to a 2
+*dimensional array of integers
 *@width: parameter to determine the width of the multi-dimensional array
 *@height: height of the array
 *
