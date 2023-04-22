@@ -4,8 +4,8 @@
 /**
 *string_nconcat - Function that concatenates two strings
 *@s1: first set of string to be concatenated
-@s2: second string to concat
-@n: number of bytes
+*@s2: second string to concat
+*@n: number of bytes
 *
 *Return: NULL if failed
 *empty string if NULL is passed
