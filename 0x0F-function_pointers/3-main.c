@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-  * main - A function that performs simple operation
+  * main - function that performs simple operations
   *
   * @argc: Argument count
   * @argv: Argument vector
@@ -12,7 +12,7 @@
   */
 int main(int argc, char *argv[])
 {
-	int (*opt)(int, int);
+	int (*oprt)(int, int);
 
 	if (argc != 4)
 	{
@@ -20,14 +20,14 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	opt = get_op_func(argv[2]);
+	oprt = get_op_func(argv[2]);
 
-	if (!opt)
+	if (!oprt)
 	{
 		printf("Error\n");
 		exit(99);
 	}
 
-	printf("%d\n", opt(atoi(argv[1]), atoi(argv[3])));
+	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
